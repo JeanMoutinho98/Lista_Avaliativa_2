@@ -45,7 +45,7 @@ int main(){
         printf("\n");  
     } 
 
-
+    fflush(stdin);                                  // Para poder usar o fgets depois de scanf.
     // Escolhe a operação a ser feita.
     printf("Insira a operacao a ser feita:\n");
     fgets(operacao, 20, stdin);
