@@ -1,5 +1,6 @@
 #include <stdio.h>                                                  // Se não funcionar no Marvin só pode ser problema de formatação na saída.
 #include <stdlib.h>
+#include <string.h>
 
 int main(){
     int mat1[4][4], mat2[4][4], mat_soma[4][4], mat_sub[4][4], mat_mult[4][4];
