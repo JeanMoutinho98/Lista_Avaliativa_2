@@ -13,7 +13,7 @@ int main(){
     printf("Insira o nome do time 1:");
     fgets(time1, sizeof(time1), stdin);
     strtok(time1, "\n");                                            // Só assim consegui remover o espaço extra.
-    printf("Time 1:%s", time1);
+    printf("Time 1:%s\n", time1);
 
     // Lê as informações do time 1(Nome dos jogadores; Posição; Overall).
     printf("Insira as seguintes informacoes: Nome dos jogadores; Posicao; Overall\n");
@@ -52,7 +52,7 @@ int main(){
     forca1 = (8 * overalls1[0] + 10 * (overalls1[1] + overalls1[4]) + 5 * (overalls1[2] + overalls1[3]) + 8 * (overalls1[5] + overalls1[6]) + 11 * (overalls1[7] + overalls1[8]) + 12 * (overalls1[9] + overalls1[10])) / 100.0;    
     printf("Forca do time 1: %.2f\n", forca1);
     forca2 = (8 * overalls2[0] + 10 * (overalls2[1] + overalls2[4]) + 5 * (overalls2[2] + overalls2[3]) + 8 * (overalls2[5] + overalls2[6]) + 11 * (overalls2[7] + overalls2[8]) + 12 * (overalls2[9] + overalls2[10])) / 100.0;    
-    printf("Forca do time 1: %.2f\n", forca2);
+    printf("Forca do time 2: %.2f\n", forca2);
 
 
     if(forca1 > forca2){
