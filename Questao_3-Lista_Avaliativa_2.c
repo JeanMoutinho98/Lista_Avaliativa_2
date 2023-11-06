@@ -58,25 +58,10 @@ int main(){
     // Imprime os resultados.
     for(linhas_Resultado= 0; linhas_Resultado < 4; linhas_Resultado++){
             for(colunas_Resultado = 0; colunas_Resultado < 4; colunas_Resultado++){
-                printf("%2d ", mat_Resultado[linhas_Resultado][colunas_Resultado]);
+                printf("%4d", mat_Resultado[linhas_Resultado][colunas_Resultado]);
             }
                 printf("\n");
         }
-        printf("\n");
-    /*printf("Matriz 1:\n");
-    for(linhas1= 0; linhas1 < 4; linhas1++){
-        for(colunas1 = 0; colunas1 < 4; colunas1++){
-            printf("%2d ", mat1[linhas1][colunas1]);
-        }
-            printf("\n");
-    }
-    printf("Matriz 2:\n");
-    for(linhas2= 0; linhas2 < 4; linhas2++){
-        for(colunas2 = 0; colunas2 < 4; colunas2++){
-            printf("%2d ", mat2[linhas2][colunas2]);
-        }
-            printf("\n");
-    }*/
 
 
     return 0;
